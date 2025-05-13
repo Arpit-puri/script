@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
-const DB1 = 'mongodb+srv://dbuser_mongo:RoseChina4312@cluster1.opga7.mongodb.net/oauth?retryWrites=true&w=majority';
-const DB2 = 'mongodb+srv://root:root@servicely.gbsj2mk.mongodb.net/Servicely?retryWrites=true&w=majority';
+const DB1 = '';
+const DB2 = '';
 
 async function transferData() {
     const sourceClient = new MongoClient(DB1);
